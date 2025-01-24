@@ -33,7 +33,7 @@ if (cluster.isPrimary) {
     return { hello: request.ip };
   });
 
-  server.listen({port:3000});
+  server.listen({port:7008});
 
   console.log(`Worker ${process.pid} started`);
 }
